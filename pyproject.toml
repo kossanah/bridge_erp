@@ -4,7 +4,7 @@ authors = [
     { name = "Edubridge Consultants", email = "kanaekwe@edubridge.com.ng"}
 ]
 description = "Custom App for FAC enhancement"
-requires-python = ">=3.14"
+requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]
 dependencies = [
