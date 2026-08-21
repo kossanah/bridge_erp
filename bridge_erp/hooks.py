@@ -256,3 +256,8 @@ app_license = "mit"
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
 
+# FAC external tool registration
+# See: https://github.com/buildswithpaul/Frappe_Assistant_Core/blob/main/docs/development/EXTERNAL_APP_DEVELOPMENT.md
+assistant_tools = [
+    "bridge_erp.assistant_tools.filter_documents.FilterDocuments",
+]
